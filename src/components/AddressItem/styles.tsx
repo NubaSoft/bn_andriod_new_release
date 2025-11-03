@@ -1,0 +1,112 @@
+import { StyleSheet } from "react-native"
+import { calcHeight, calcWidth } from "../../utils/sizes"
+import { COLORS } from "../../utils/theme"
+
+export const styles = StyleSheet.create({
+  container: {
+    width: calcWidth(343),
+    marginTop: calcWidth(16),
+    borderWidth: 1,
+    borderColor: COLORS.primary,
+    borderRadius: calcWidth(12),
+    backgroundColor: COLORS.whiteGray,
+    paddingVertical: calcHeight(12),
+    alignItems: "center",
+  },
+  headerContainer: {
+    width: calcWidth(343),
+    paddingHorizontal: calcWidth(16),
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+  },
+  headerActionContainer: {
+    flexDirection: "row",
+    justifyContent: "center",
+  },
+  headerActionIcon: {
+    width: calcWidth(24),
+    height: calcHeight(24),
+    resizeMode: "stretch",
+    marginStart: calcWidth(12),
+  },
+  deliveryDaysContainer: {
+    width: calcWidth(343),
+    paddingHorizontal: calcWidth(16),
+  },
+  deliveryDaysItemContainer: {
+    width: calcWidth(68),
+    height: calcHeight(28),
+    marginEnd: calcWidth(12),
+    marginBottom: calcHeight(8),
+    borderRadius: calcHeight(8),
+    borderWidth: 1,
+    borderColor: COLORS.primary,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  deliveryTimeContainer: {
+    marginTop: calcHeight(4),
+    width: calcWidth(343),
+    paddingHorizontal: calcWidth(16),
+  },
+  deliveryTimeView: {
+    width: calcWidth(311),
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "space-between",
+  },
+  deliveryTimeItemContainer: {
+    width: calcWidth(140),
+    paddingVertical: calcHeight(4),
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: calcHeight(8),
+    borderWidth: 1,
+    borderColor: COLORS.primary,
+    marginBottom: calcHeight(8),
+  },
+  addressDetailsContainer: {
+    marginTop: calcHeight(4),
+    width: calcWidth(343),
+    paddingHorizontal: calcWidth(16),
+  },
+  addressItemContainer: {
+    paddingVertical: calcHeight(4),
+    alignItems: "center",
+    justifyContent: "center",
+    borderRadius: calcHeight(8),
+    borderWidth: 1,
+    borderColor: COLORS.primary,
+    marginEnd: calcWidth(31),
+    marginBottom: calcHeight(8),
+  },
+  listContainer: {
+    width: calcWidth(311),
+    marginTop: calcHeight(3),
+    marginBottom: calcHeight(8),
+  },
+  headerView: {
+    width: calcWidth(155),
+    borderWidth: 0.6,
+    borderColor: COLORS.gray,
+    backgroundColor: COLORS.primary,
+    height: calcHeight(28),
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  itemContainer: {
+    width: calcWidth(311),
+    flexDirection: "row",
+    justifyContent: "center",
+  },
+  itemView: {
+    width: calcWidth(155),
+    borderWidth: 0.6,
+    borderColor: COLORS.gray,
+    backgroundColor: COLORS.white,
+    height: calcHeight(28),
+    alignItems: "center",
+    justifyContent: "center",
+  },
+})

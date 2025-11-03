@@ -1,0 +1,51 @@
+import { I18nManager } from "react-native"
+
+export const FONTS = {
+  black: "Tajawal-Black",
+  extra_bold: "Tajawal-ExtraBold",
+  bold: "Tajawal-Bold",
+  medium: "Tajawal-Medium",
+  regular: "Tajawal-Regular",
+  light: "Tajawal-Light",
+  extra_light: "Tajawal-ExtraLight",
+}
+
+export const COLORS = {
+  primary: "#0e8b9d",
+  primaryLight: "rgba(255, 168, 10, 0.4)",
+  secondary: "rgba(153, 50, 93, 1)",
+  primaryGradient: "rgba(252, 132, 182, 1)",
+  secondGradient: "rgba(230, 80, 142, 1)",
+  backgroundLight: "rgba(242, 246, 251, 1)",
+  textDark: "rgba(12, 12, 19, 1)",
+  textLight: "rgba(142, 146, 185, 1)",
+  green: "rgba(12, 215, 177, 1)",
+  green2: "rgba(92, 190, 67, 1)",
+  backgroundGreen: "rgba(92, 190, 67, 0.2)",
+  backgroundRed: "rgba(239, 68, 68, 0.2)",
+  backgroundYellow: "rgba(242, 166, 19, 0.2)",
+  yellow: "rgba(242, 166, 19, 1)",
+  red: "rgba(254, 84, 84, 1)",
+  borderLight: "rgba(229, 229, 229, 1)",
+  purple: "rgba(151, 71, 255, 1)",
+
+  lightPrimary: "#D6EBF1",
+  veryLightPrimary: "rgba(255, 240, 247, 0.5)",
+  primaryGray: "#E4F2F6",
+  white: "rgba(255, 255, 255, 1)",
+  whiteGray: "rgba(249, 249, 251, 1)",
+  whiteGreen: "rgba(135, 244, 193, 0.15)",
+  blue: "rgba(13, 139, 255, 1)",
+  black: "#000000",
+  gray: "rgba(91, 91, 94, 1)",
+  darkGray: "#1B1D3D",
+  lightGray: "rgba(249, 250, 251, 0.8)",
+  transparent: "rgba(0,0,0,0.0)",
+
+  diamond: "rgba(85, 221, 255, 1)",
+  diamondLight: "rgba(231, 250, 255, 1)",
+  golden: "rgba(251, 163, 51, 1)",
+  goldenLight: "rgba(255, 250, 222, 1)",
+  silver: "rgba(104, 117, 136, 1)",
+  silverLight: "rgba(241, 242, 244, 1)",
+}
